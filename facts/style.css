@@ -1,0 +1,175 @@
+body {
+ background-color:aqua;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+
+}
+
+/* img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      } */
+
+      .sidepanel  {
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        height: 250px;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
+      
+      .sidepanel a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+      }
+      
+      .sidepanel a:hover {
+        color: #f1f1f1;
+      }
+      
+      .sidepanel .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+      }
+      
+      .openbtn {
+        font-size: 20px;
+        cursor: pointer;
+        background-color: #111;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+      }
+      
+      .openbtn:hover {
+        background-color:#444;
+      }
+
+      #myDIV {
+        width: 100%;
+        padding: 50px 0;
+        /* text-align: center; */
+        background-color: lightblue;
+        margin-top: 20px;
+      }
+
+
+      li {
+          list-style-type: none;
+      }
+
+      
+
+      .card {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 400px;
+        width: 50%;
+          text-align: center;
+        background: url("https://www.kruger-national-park.de/media/krugernationalpark/big5/elefant-elephant/elefanten-elephants-14g.jpg") no-repeat;
+        /* display: inline-block; */
+    }
+
+
+    .card:hover {
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        background: url("https://nas-national-prod.s3.amazonaws.com/styles/hero_mobile/s3/gettyimages_142457895.jpg?itok=RItpIa_P") no-repeat;
+        border: 1px solid red;
+    }
+
+    .Rhino  {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 400px;
+        width: 50%;
+          text-align: center;
+          background: url("https://scx2.b-cdn.net/gfx/news/2019/najinanddaug.jpg") no-repeat;
+    }
+
+    .Rhino:hover  {
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+          text-align: center;
+          background: url("https://static.euronews.com/articles/stories/05/42/83/82/1024x538_cmsv2_f286700b-36c0-51c7-887f-f56e4217f49f-5428382.jpg?1614867654") no-repeat;
+          border: 1px solid red;
+        }
+
+    .buffalo  {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 400px;
+        width: 50%;
+          text-align: center;
+          background: url("https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i3Yp1mXpDIMA/v2/1200x836.jpg") no-repeat;
+    }
+
+    .buffalo:hover  {
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+          text-align: center;
+          background: url("https://images.unsplash.com/photo-1571566834017-471126f4e366?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YWZyaWNhbiUyMGJ1ZmZhbG98ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80") no-repeat;
+          border: 1px solid red;
+        }
+
+    .leopard  {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 400px;
+        width: 50%;
+          text-align: center;
+          background: url("https://www.kruger-national-park.de/media/big5-southafrica-suedafrika/leopard/leoparden-leopards-2g.jpg") no-repeat;
+    }
+
+    .leopard:hover  {
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+          text-align: center;
+          background: url("https://live.staticflickr.com/383/32491405491_64a9c90c9d_b.jpg") no-repeat;
+          border: 1px solid red;
+        }
+
+
+    .lion  {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 400px;
+        width: 50%;
+          text-align: center;
+          background: url("https://i.pinimg.com/originals/1c/2f/52/1c2f52962906d49ee2c3359a23de64e1.jpg") no-repeat;
+    }
+
+    .lion:hover  {
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+          text-align: center;
+          background: url("https://thumbs.dreamstime.com/z/african-lion-roar-lion-male-manes-african-lion-roar-lion-male-manes-african-savannah-zimbabwe-africa-128323583.jpg") no-repeat;
+          border: 1px solid red;
+        }
